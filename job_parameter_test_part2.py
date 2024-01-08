@@ -3,5 +3,5 @@ my_catalog = dbutils.jobs.taskValues.get(taskKey = "job_task_1", key = "catalog_
 
 # COMMAND ----------
 
-spark_df = spark.table(f'{my_catalog}.ogden_churn.churn_batch_scores')
+spark_df = spark.table(f'{my_catalog}.ogden_churn.churn_scores')
 display(spark_df)
