@@ -1,2 +1,2 @@
 # Databricks notebook source
-dbutils.jobs.taskValues.set(key = "catalog_name_global", value = "uc_demos_ogden_v1")
+dbutils.jobs.taskValues.set(key = "task_parameter_reused", value = "uc_demos_ogden_v1")
